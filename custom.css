@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
+
+html{
+ box-sizing: border-box;
+ font-size: 1.5em;
+ color: #fff;
+}
+
+body{
+ padding: 0;
+ margin: 0;
+}
+
+.call-out-background{
+  background: url(https://i.imgur.com/BeDFPKb.png);    
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 107vh;
+}
+
+h1.text-center{
+  color: #fff;
+}
+
+a{
+  text-decoration: none;
+}
+
+.blue-background{
+  background: #0f1840;
+}
+
+.box{
+  font-family: 'Fira Mono', monospace;
+  font-size: 20px;
+  display: grid;
+  margin: 5%;
+  grid-template-areas: 
+  'b-img b-img b-text b-text'
+}
+
+.box-image{
+  grid-area: b-img;
+}
+
+.box-text{
+  color:white;
+  grid-area: b-text;
+  align-self: center;
+  justify-self: center;
+}
+
+.info-button{
+  opacity: 0;
+  transition: 1s;
+  position: absolute;
+  top: 25%;
+  left: 43%;
+  border: 10px solid transparent;
+}
+
+.box-text:hover .info-button{
+  opacity: 1;
+}
+
+p{
+  padding-left: 1.3rem;
+}
+
+.box-text:hover p{
+  opacity: 0.1;
+  transition: 1s;
+}
+
+.footer{
+  padding: 2% 0 2% 0;
+  font-family: 'Fira Mono', monospace;
+  color: #0f1840;
+}
+
+
+
+
