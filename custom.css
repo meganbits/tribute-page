@@ -12,7 +12,7 @@ body{
 }
 
 .call-out-background{
-  background: url(https://i.imgur.com/BeDFPKb.png);    
+  background: url(https://s3-us-west-1.amazonaws.com/sun-tribute-image/space-background.png);    
   background-size: cover;
   background-position: center 0;
   background-repeat: no-repeat;
